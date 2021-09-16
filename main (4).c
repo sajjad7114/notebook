@@ -22,7 +22,7 @@ int main() {
 	}
 	fclose(fa);
 	while(1){
-		printf("1.enter  2.edit  3.delete  4.sort  5.report  6.exit\n");
+		printf("1.add  2.edit  3.delete  4.sort  5.report  6.exit\n");
 		scanf("%d",&a);
 		if(a==1){
 			printf("time: ");
@@ -117,7 +117,6 @@ int main() {
 		    	s=0;
 		    	for(i=0;i<count;i++){
 					if(n[i+1].year<n[i].year){
-						
 						break;
 					}
 					if(n[i+1].year==n[i].year){
